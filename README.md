@@ -1,0 +1,2 @@
+# djangoschoolmgmt
+djangoschoolmgmt
