@@ -1,0 +1,30 @@
+<html>
+{% load static %}
+<head>Django<head>
+<title>Hello World</title>
+<body>
+{{site}}
+{{name}}
+Govind
+<br/>
+<font color="red">This is some text!</font>
+
+<img src="{% static 'rose.jpg' %}" alt="My image">
+<p>Hi Wlcome to Python class</p>
+{%  for n in d %}
+<table style="width:100%">
+<tr>
+<th>{{n.name}}</th><br/>
+</tr>
+<tr>
+<th>{{n.regNo}}</th><br/>
+</tr>
+<tr>
+<th>{{n.classs}}</th><br/>
+</tr>
+<tr>
+<th>{% endfor %}</th><br/>
+</tr>
+</table>
+</body>
+</html>
